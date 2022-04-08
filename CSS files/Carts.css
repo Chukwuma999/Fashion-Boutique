@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*----Navigation----*/
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar a.active{
+    background-color: #04aa6d;
+    color: white;
+}
+
+.navbar-brand img{
+    height: 100px;
+    padding-left: 30px;
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover{
+    color: #007bff !important;
+}
+
+
+.navbar a:hover {
+    background-color: #04aa6d;
+  }
+
+  @media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.navbar-toggler{
+    border: none !important;
+}
+
+.nav-link{
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+/*----Checkout----*/
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%;
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%;
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%;
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+
+
+    /*----footer----*/
+    #contacts{
+      background: #efefef;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      color: #777;
+  }
+  
+  .contact-form{
+      padding: 30px;
+  }
+  
+  .form-control{
+      border-radius: 0 !important;
+      border: none !important;
+  }
+  
+  ::placeholder{
+      color: #999 !important;
+  }
+  
+  .form-group{
+      padding-bottom: 10px;
+  }
+  
+  .btn{
+      margin-top: 10px;
+  }
+  
+  .follow{
+      background: #fff;
+      padding: 10px;
+      margin: 15px;
+  }
+  
+  .contact-info .fa{
+      margin: 10px;
+      color: #007bff;
+      font-weight: bold;
+  }
+  
+  input[type=text], input[type=submit] {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+  
+    input[type=checkbox] {
+      margin-top: 16px;
+    }
+  
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      border: none;
+    }
+  
+    input[type=submit]:hover {
+      opacity: 0.8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 3px;
+      background-color: green;
+      color: white;
+}
